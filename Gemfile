@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Added 'pry' because rail console's output formatting is too ugly. This allows you to call pry inside a rails console.
+gem 'pry'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2'
